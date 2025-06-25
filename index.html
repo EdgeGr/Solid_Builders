@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solid Builders + Development</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Header -->
+<header>
+    <div class="main-header">
+        <div class="header-container">
+            <div class="logo">
+                <img src="images/logo.jpg" alt="Solid Builders Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li class="dropdown">
+                        <a href="#services">Services <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-menu">
+                            <a href="#">Custom Home Building</a>
+                            <a href="#">Home Extensions</a>
+                            <a href="#">Basement Finishing</a>
+                            <a href="#">Garage Construction</a>
+                            <a href="#">Kitchen Renovations</a>
+                            <a href="#">Bathroom Renovations</a>
+                            <a href="#">Whole Home Remodeling</a>
+                            <a href="#">Exterior Upgrades</a>
+                            <a href="#">Office Buildings</a>
+                            <a href="#">Industrial Facilities</a>
+                            <a href="#">Warehouses</a>
+                        </div>
+                    </li>
+                    <li><a href="#quote">Request Quote</a></li>
+                    <li><a href="#gallery">Our Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="contact-bar">
+        <div class="container">
+            <div class="contact-info">
+                <div class="contact-item artistic-phone">
+                    <i class="fas fa-phone"></i>
+                    <span>219-222-111</span>
+                </div>
+                <div class="contact-item artistic-email">
+                    <i class="fas fa-envelope"></i>
+                    <span>business@gmail.com</span>
+                </div>
+                <div class="contact-item artistic-hours">
+                    <i class="fas fa-clock"></i>
+                    <span>Mon-Sun 9:00-21:00</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+    <!-- Hero Section -->
+    <section class="hero" id="home" style="background-image: url('images/parallax-bg.png');">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Building Dreams, Crafting Quality</h1>
+                <p>Professional construction services with over 20 years of experience in residential and commercial projects</p>
+                <a href="#quote" class="btn">Get a Free Quote</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+    <div class="container">
+        <h2 class="section-title">About Us</h2>
+        <div class="about-content">
+            <div class="about-text">
+                    <h3>Our Mission</h3>
+                    <p>At Solid Builders, we are committed to delivering exceptional construction services with integrity, quality, and professionalism. Our mission is to build structures that stand the test of time while providing unparalleled customer service.</p>
+                    <p>With a team of skilled professionals and a dedication to excellence, we transform your vision into reality, ensuring every project meets the highest standards of craftsmanship.</p>
+                    <ul class="about-features">
+                        <li><i class="fas fa-check-circle"></i> Licensed & Insured</li>
+                        <li><i class="fas fa-check-circle"></i> 20+ Years Experience</li>
+                        <li><i class="fas fa-check-circle"></i> Quality Materials</li>
+                        <li><i class="fas fa-check-circle"></i> On-Time Completion</li>
+                    </ul>
+                </div>
+            <div class="about-image">
+                <img src="images/construction-team.jpg" alt="Our construction team">
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section services" id="services">
+    <div class="container">
+        <h2 class="section-title">Our Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-image">
+                    <img src="images/custom-home.jpg" alt="Custom Home Building">
+                    <div class="service-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                </div>
+                <div class="service-info">
+                    <h3>Custom Home Building</h3>
+                    <p>Tailored home construction from foundation to finish, designed to your exact specifications with premium materials and craftsmanship.</p>
+                </div>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-image">
+                    <img src="images/home-extension.jpg" alt="Home Extensions">
+                    <div class="service-icon">
+                        <i class="fas fa-expand"></i>
+                    </div>
+                </div>
+                <div class="service-info">
+                    <h3>Home Extensions</h3>
+                    <p>Seamless additions to expand your living space, whether adding rooms, expanding kitchens, or creating sunrooms.</p>
+                </div>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-image">
+                    <img src="images/basement.jpg" alt="Basement Finishing">
+                    <div class="service-icon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                </div>
+                <div class="service-info">
+                    <h3>Basement Finishing</h3>
+                    <p>Transform your unused basement into functional living space - home theaters, guest suites, or recreational rooms.</p>
+                </div>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-image">
+                    <img src="images/garage.jpg" alt="Garage Construction">
+                    <div class="service-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                </div>
+                <div class="service-info">
+                    <h3>Garage Construction</h3>
+                    <p>Detached or attached garage solutions with options for workshops, storage lofts, and custom cabinetry.</p>
+                </div>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-image">
+                    <img src="images/kitchen.jpg" alt="Kitchen Renovations">
+                    <div class="service-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                </div>
+                <div class="service-info">
+                    <h3>Kitchen Renovations</h3>
+                    <p>Complete kitchen makeovers including custom cabinetry, premium countertops, and professional-grade appliances.</p>
+                </div>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-image">
+                    <img src="images/bathroom.jpg" alt="Bathroom Renovations">
+                    <div class="service-icon">
+                        <i class="fas fa-bath"></i>
+                    </div>
+                </div>
+                <div class="service-info">
+                    <h3>Bathroom Renovations</h3>
+                    <p>Luxury bathroom remodels featuring walk-in showers, soaking tubs, heated floors, and custom vanities.</p>
+                </div>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-image">
+                    <img src="images/remodeling.jpg" alt="Whole Home Remodeling">
+                    <div class="service-icon">
+                        <i class="fas fa-vector-square"></i>
+                    </div>
+                </div>
+                <div class="service-info">
+                    <h3>Whole Home Remodeling</h3>
+                    <p>Comprehensive home transformations that reimagine your entire living space with cohesive design.</p>
+                </div>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-image">
+                    <img src="images/exterior.jpg" alt="Exterior Upgrades">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-roller"></i>
+                    </div>
+                </div>
+                <div class="service-info">
+                    <h3>Exterior Upgrades</h3>
+                    <p>Siding replacement, stone veneers, outdoor living spaces, and curb appeal enhancements.</p>
+                </div>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-image">
+                    <img src="images/office.jpg" alt="Office Buildings">
+                    <div class="service-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                </div>
+                <div class="service-info">
+                    <h3>Office Buildings</h3>
+                    <p>Commercial office spaces designed for productivity with modern amenities and efficient layouts.</p>
+                </div>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-image">
+                    <img src="images/industrial.jpg" alt="Industrial Facilities">
+                    <div class="service-icon">
+                        <i class="fas fa-industry"></i>
+                    </div>
+                </div>
+                <div class="service-info">
+                    <h3>Industrial Facilities</h3>
+                    <p>Durable, functional industrial buildings with specialized features for manufacturing and warehousing.</p>
+                </div>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-image">
+                    <img src="images/warehouse.jpg" alt="Warehouses">
+                    <div class="service-icon">
+                        <i class="fas fa-warehouse"></i>
+                    </div>
+                </div>
+                <div class="service-info">
+                    <h3>Warehouses</h3>
+                    <p>Custom storage solutions with high ceilings, loading docks, and efficient space planning.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Quote Section -->
+    <section class="section quote" id="quote">
+        <div class="container">
+            <h2 class="section-title">Request a Quote</h2>
+            <form class="quote-form">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="service">Service Needed</label>
+                    <select id="service" required>
+                        <option value="">Select a service</option>
+                        <option value="custom-home">Custom Home Building</option>
+                        <option value="extensions">Home Extensions & Additions</option>
+                        <option value="basement">Basement Finishing</option>
+                        <option value="garage">Garage Construction</option>
+                        <option value="kitchen">Kitchen Renovations</option>
+                        <option value="bathroom">Bathroom Renovations</option>
+                        <option value="remodeling">Whole Home Remodeling</option>
+                        <option value="exterior">Exterior Upgrades</option>
+                        <option value="office">Office Buildings</option>
+                        <option value="industrial">Industrial Facilities</option>
+                        <option value="warehouse">Warehouses</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Project Details</label>
+                    <textarea id="message" required></textarea>
+                </div>
+                <button type="submit" class="btn">Submit Request</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="section gallery" id="gallery">
+    <div class="container">
+        <h2 class="section-title">Our Work</h2>
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <img src="images/house1.jpg" alt="Modern House Construction">
+                <div class="gallery-overlay">
+                    <div class="gallery-caption">
+                        <h3>Modern Residence</h3>
+                        <p>Custom-built home in Chicago suburbs</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/kitchen-reno.jpg" alt="Kitchen Renovation">
+                <div class="gallery-overlay">
+                    <div class="gallery-caption">
+                        <h3>Kitchen Remodel</h3>
+                        <p>Complete transformation in 6 weeks</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more items as needed -->
+        </div>
+    </div>
+    </section>
+
+    <!-- Industries Section -->
+    <section class="section industries">
+        <div class="container">
+            <h2 class="section-title">Industries We Serve</h2>
+            <div class="industries-grid">
+                <div class="industry-card">
+                    <i class="fas fa-home"></i>
+                    <h3>Residential</h3>
+                    <p>Custom homes, renovations, and extensions for homeowners</p>
+                </div>
+                <div class="industry-card">
+                    <i class="fas fa-building"></i>
+                    <h3>Commercial</h3>
+                    <p>Office buildings, retail spaces, and business facilities</p>
+                </div>
+                <div class="industry-card">
+                    <i class="fas fa-industry"></i>
+                    <h3>Industrial</h3>
+                    <p>Warehouses, factories, and industrial complexes</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section testimonials">
+    <div class="container">
+        <h2 class="section-title">What Our Clients Say</h2>
+        <div class="testimonial-slider">
+            <div class="testimonial active">
+                <img src="images/client1.jpg" alt="Sarah Johnson" class="testimonial-image">
+                <p class="testimonial-text">"Solid Builders transformed our outdated kitchen into a modern masterpiece. Their attention to detail and professionalism was outstanding."</p>
+                <p class="testimonial-author">
+                    - Sarah Johnson
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </p>
+                <span class="testimonial-position">Homeowner, Chicago</span>
+            </div>
+            <div class="testimonial">
+                <img src="images/client2.jpg" alt="Michael Thompson" class="testimonial-image">
+                <p class="testimonial-text">"The team completed our office renovation ahead of schedule and under budget. Highly recommend their commercial services."</p>
+                <p class="testimonial-author">
+                    - Michael Thompson
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </p>
+                <span class="testimonial-position">Business Owner, Indianapolis</span>
+            </div>
+            <div class="testimonial">
+                <img src="images/client3.jpg" alt="David Wilson" class="testimonial-image">
+                <p class="testimonial-text">"From design to completion, Solid Builders made our custom home building experience smooth and enjoyable."</p>
+                <p class="testimonial-author">
+                    - David Wilson
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </p>
+                <span class="testimonial-position">Custom Home Clients, Milwaukee</span>
+            </div>
+        </div>
+        <div class="slider-controls">
+            <span class="slider-dot active" data-index="0"></span>
+            <span class="slider-dot" data-index="1"></span>
+            <span class="slider-dot" data-index="2"></span>
+        </div>
+    </div>
+</section>
+
+    <section id="contact" class="contact section">
+    <div class="container">
+        <h2 class="section-title contact-title">Get in Touch</h2>
+        
+        <div class="contact-content">
+            <!-- Contact Form -->
+            <form class="contact-form">
+                    <div class="form-group">
+                        <label for="contact-name">Name</label>
+                        <input type="text" id="contact-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-email">Email</label>
+                        <input type="email" id="contact-email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-message">Message</label>
+                        <textarea id="contact-message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+            </form>
+            <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-google"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+               <div class="footer-logo">
+                    <img src="images/logo.jpg" alt="Solid Builders Logo">
+               </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#quote">Request Quote</a></li>
+                        <li><a href="#gallery">Our Work</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Info</h3>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <span>219-222-111</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>business@gmail.com</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <span>Mon-Sun 9:00-21:00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; Solid Builders + Development.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/parallax.js"></script>
+</body>
+</html>
