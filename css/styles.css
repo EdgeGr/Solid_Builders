@@ -818,52 +818,73 @@ footer {
     }
 }   
 
-@media (max-width: 768px) {
-    /* Adjust header layout */
+/* Mobile Navigation Fix */
+@media (max-width: 992px) {
+    /* Reset header layout */
     .header-container {
         flex-direction: column;
-        align-items: flex-start;
-        padding-top: 10px;
+        align-items: stretch;
+        padding: 10px 15px;
     }
-    
-    /* Position logo more appropriately */
+
+    /* Make logo smaller and centered */
     .logo {
         position: relative;
-        left: auto;
-        margin-bottom: 10px;
+        margin: 0 auto 10px;
+        text-align: center;
     }
     
-    /* Make navigation items wrap and be more compact */
+    .logo img {
+        height: 60px;
+    }
+
+    /* Navigation container */
+    nav {
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: 15px;
+    }
+
+    /* Hide scrollbar but keep functionality */
+    nav::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* Navigation list adjustments */
     nav ul {
-        flex-wrap: wrap;
-        gap: 10px;
-        justify-content: center;
+        display: inline-flex;
+        flex-wrap: nowrap;
+        padding-bottom: 5px;
+        min-width: max-content;
     }
-    
+
     nav ul li {
-        margin-left: 15px;
-        margin-right: 15px;
+        margin: 0 10px;
+        flex-shrink: 0;
     }
-    
-    /* Ensure all nav items are visible */
-    .main-header {
-        padding: 20px 0 30px; /* More bottom padding for nav items */
+
+    nav ul li a {
+        font-size: 1rem;
+        padding: 8px 0;
     }
-    
-    /* Adjust dropdown positioning */
+
+    /* Dropdown adjustments */
     .dropdown-menu {
         left: 50%;
         transform: translateX(-50%);
     }
-    
-    /* Make sure contact bar items wrap */
+
+    /* Contact bar adjustments */
     .contact-info {
         flex-direction: column;
+        align-items: center;
         gap: 10px;
     }
-    
+
     .contact-item {
         width: 100%;
+        max-width: 280px;
         justify-content: center;
     }
 }
@@ -871,16 +892,14 @@ footer {
 /* For very small screens */
 @media (max-width: 480px) {
     .logo img {
-        height: 60px; /* Slightly smaller for tiny screens */
+        height: 50px;
     }
-    
+
     nav ul li {
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-bottom: 5px;
+        margin: 0 8px;
     }
-    
+
     nav ul li a {
-        font-size: 1rem; /* Slightly smaller font */
+        font-size: 0.9rem;
     }
 }
