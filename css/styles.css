@@ -919,3 +919,120 @@ footer {
 .about-features li:hover {
     color: white !important;
 }
+
+@media (max-width: 992px) {
+    /* Logo adjustments */
+    .logo {
+        position: relative;
+        left: auto;
+        margin-bottom: 10px;
+        text-align: center;
+        width: 100%;
+    }
+    
+    .logo img {
+        height: 80px !important; /* Reduced from 120px */
+        transition: none;
+    }
+    
+    /* Navigation adjustments */
+    nav {
+        width: 100%;
+        overflow-x: auto;
+        padding-bottom: 10px;
+        justify-content: flex-start;
+    }
+    
+    nav ul {
+        flex-wrap: nowrap;
+        padding: 0 15px;
+    }
+    
+    nav ul li {
+        margin: 0 8px;
+        flex-shrink: 0; /* Prevent items from shrinking */
+    }
+    
+    nav ul li a {
+        font-size: 0.9rem;
+        padding: 5px 8px;
+    }
+    
+    /* Dropdown menu adjustments */
+    .dropdown-menu {
+        width: 200px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    /* Header adjustments */
+    .header-container {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+    
+    .main-header {
+        padding: 20px 0;
+    }
+    
+    /* Contact bar adjustments */
+    .contact-info {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+    
+    .contact-item {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        transform: none !important;
+    }
+    
+    /* Testimonials adjustments */
+    .testimonial {
+        padding-left: 30px;
+        min-height: auto;
+    }
+    
+    .testimonial-image {
+        width: 50px;
+        height: 50px;
+        left: 10px;
+        top: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    /* Extra small devices */
+    .logo img {
+        height: 60px !important;
+    }
+    
+    .section-title {
+        font-size: 1.8rem;
+    }
+    
+    .hero {
+        padding-top: 250px;
+    }
+    
+    .hero h1 {
+        font-size: 2.2rem;
+    }
+    
+    /* Services grid */
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Industries grid */
+    .industries-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Gallery grid */
+    .gallery-container {
+        grid-template-columns: 1fr;
+    }
+}
